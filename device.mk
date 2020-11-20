@@ -449,6 +449,7 @@ PRODUCT_PACKAGES += \
     libQWiFiSoftApCfg \
     wificond \
     libwpa_client \
+    libqmiservices_shim \
     WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
