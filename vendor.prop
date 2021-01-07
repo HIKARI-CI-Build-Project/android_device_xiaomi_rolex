@@ -105,6 +105,9 @@ persist.dbg.wfc_avail_ovr=0
 debug.stagefright.omx_default_rank=0
 vendor.vidc.disable.split.mode=1
 
+# Network manager
+persist.vendor.data.iwlan.enable=true
+
 # NTP Server
 persist.backup.ntpServer=0.pool.ntp.org
 
