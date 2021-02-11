@@ -298,3 +298,7 @@ echo Y > /sys/module/workqueue/parameters/power_efficient
 misc_link=$(ls -l /dev/block/bootdevice/by-name/misc)
 real_path=${misc_link##*>}
 setprop persist.vendor.mmi.misc_dev_path $real_path
+
+#Uclamp tuning
+sysctl -w kernel.sched_util_clamp_min_rt_default=94
+sysctl -w kernel.sched_util_clamp_min=1286
