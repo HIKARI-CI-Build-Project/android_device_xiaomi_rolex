@@ -94,7 +94,7 @@ function blob_fixup() {
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
-        "${KANG}" --section "${SECTION}"
+ 	"${KANG}" --section "${SECTION}"
 
 extract "${MY_DIR}/proprietary-files-qc.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"
@@ -112,5 +112,11 @@ done
 
 # Camera socket
 sed -i "s|/data/misc/camera/cam_socket|/data/vendor/qcam/cam_socket|g" "$DEVICE_BLOB_ROOT"/vendor/bin/mm-qcamera-daemon
+
+# Wi-Fi Display
+patchelf --set-soname "libwfdaudioclient.so" libaudioclient.so "${DEVICE_BLOB_ROOT}"/libwfdaudioclient.so
+patchelf --set-soname "libwfdmediautils.so" libmediautils.so "${DEVICE_BLOB_ROOT}"/libwfdmediautils.so
+patchelf --add-needed "libwfdaudioclient.so" "${DEVICE_BLOB_ROOT}"/libwfdmmsink.so
+patchelf --add-needed "libwfdmediautils.so" "${DEVICE_BLOB_ROOT}"/libwfdmmsink.so
 
 "${MY_DIR}/setup-makefiles.sh"
