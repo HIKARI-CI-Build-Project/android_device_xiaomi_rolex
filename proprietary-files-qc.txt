@@ -541,12 +541,9 @@ vendor/lib64/libnetmgr.so|6265bfdff5b5251a6c4823b835fc1c572de00728
 vendor/lib64/libnetmgr_common.so|46b5613d6b31ba32d3202dbfe9a2dbfef512fe6c
 vendor/lib64/libnlnetmgr.so|6ad911ebb9ffa785fbb2c071486a0166efcd4775
 vendor/lib64/liboemaids_vendor.so|a6f1aa8c68d9efe22f054aa68609af5b218154c9
-vendor/lib64/libqcmaputils.so|3a542dfda06a2c5824ba505ff7d03f920a5eaf43
-vendor/lib64/libqrtr.so|83676274fde1056a0507b4100a3a5423f5af5021
 vendor/lib64/libril-qc-ltedirectdisc.so|28008699ae1178e95fe6e87b2a4b18eb3fd682c2
 vendor/lib64/libril-qc-qmi-1.so|e0c0b89181fa2eb1a4c09a7537f8e18bb68cf7b7
 vendor/lib64/libril-qc-radioconfig.so|3ee0fa2ca0a2419a2629dfea6c7b4078d9ae11f6
-vendor/lib64/librilqmiservices.so|c61998e2944ff427a9d06c0ab5db83986db412ea
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|4d77b98a5479ef5f7f1fb757f4dfaf1439f9c666
 vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so|8db13ec2de4542b0f6c71d5ef50777a22b6b40e9
 vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so|3628f0c0b9088ac14b90fd6bb6472ae14cce299d
@@ -583,7 +580,10 @@ vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa
 vendor/etc/init/vendor.qti.tftp.rc|b27f188cbffba470a4510d50e46ff7c8446c22cb
 vendor/etc/seccomp_policy/atfwd@2.0.policy|74fdb7d47bdb6d0cb06b13701a96a76c9171ab5d
 vendor/lib64/libqsocket.so|391748e46f7dbbf267dbc5a5c89f0d2a8b4fca4e
+vendor/lib64/libqcmaputils.so|131640567f4eac43ad75dd7f211cff48bf2c50a7
+vendor/lib64/libqrtr.so|6f7abe88e19e44f6b933de1cac0c7a3437318f04
 vendor/lib64/libril-qcril-hook-oem.so|dec0f4f4cd67c27fc0903e29c00964f9533b64ee
+vendor/lib64/librilqmiservices.so|29e5faa2afcb39575274bc86168ba15e2d153248
 vendor/lib64/libsettings.so|7de8204a87c098964cf5a75ea4551e78d5779de0
 vendor/lib64/libsystem_health_mon.so|ebe87c25638ef68937c3820db0d49bc762a74619
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|ced40d1ca99fca741908e2a377de1ca4f4bbfa02
