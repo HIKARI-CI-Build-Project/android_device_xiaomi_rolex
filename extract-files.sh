@@ -116,10 +116,6 @@ sed -i "s|/data/misc/camera/cam_socket|/data/vendor/qcam/cam_socket|g" "$DEVICE_
 # Gnss
 sed -i -e '$a\\    capabilities NET_BIND_SERVICE' "${DEVICE_BLOB_ROOT}"/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
 
-# Wcnss_service - libqmiservices_shim
-patchelf --add-needed "libqmiservices_shim.so" "${DEVICE_BLOB_ROOT}"/vendor/bin/wcnss_service
-sed -i "s|dms_get_service_object_internal_v01|dms_get_service_object_shimshim_v01|g" "${DEVICE_BLOB_ROOT}"/vendor/bin/wcnss_service
-
 # Wi-Fi Display
 patchelf --set-soname "libwfdaudioclient.so" libaudioclient.so "${DEVICE_BLOB_ROOT}"/libwfdaudioclient.so
 patchelf --set-soname "libwfdmediautils.so" libmediautils.so "${DEVICE_BLOB_ROOT}"/libwfdmediautils.so

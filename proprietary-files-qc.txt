@@ -710,8 +710,8 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|16baab27397ad493e845515c20ac0c0
 vendor/lib/mediadrm/libwvdrmengine.so|1518cd1f541d12b58e637735c43d0bbde52e7da7
 vendor/lib64/mediadrm/libwvdrmengine.so|422e593d78f8f6abc148e1239e628bdfe04d9ddd
 
-# Wi-Fi - from LA.UM.9.6.2.r1-03600-89xx.0
-vendor/bin/wcnss_service|1c3e98d43e49785219fea3b2f1add58b92a4f2b2
+# Wi-Fi - from Tissot
+vendor/bin/wcnss_service|42d6db361ceacb15eb6560cdc91dbda87ab7f7c5
 
 # WiFi Display - from LA.UM.9.6.2.r1-03600-89xx.0
 bin/wfdservice|96a583c0efeaf90352b26c20c904ee156238b90f
