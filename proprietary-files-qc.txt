@@ -278,6 +278,7 @@ vendor/lib/libC2D2.so|64e2a5a20312e5cb59c23b3a3a99bf8912946ed3
 vendor/lib/libCB.so|e61afd50dfff3cece76a6db524fc8bb1e4daa367
 vendor/lib/libOpenCL.so|75c7ce3463e41429e51e00c6acbf93a2188a3129
 vendor/lib/libadreno_utils.so|14d2e080f9e5fc0b7fe0a8f33f71ff2721ef5cd3
+vendor/lib/libc2d30-a3xx.so|e06a856c344a00e3e38bd8b2127d98e53747b242
 vendor/lib/libc2d30_bltlib.so|f3667f469dab7b3d5023785c6139819b557b3ed0
 vendor/lib/libgpudataproducer.so|7ef37d863a0fa5b262725d4b7cfa9002aa2475cf
 vendor/lib/libgsl.so|9e361f7cce0bd60844b45e7d073c254e37af560b
